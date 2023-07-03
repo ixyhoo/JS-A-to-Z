@@ -9,10 +9,10 @@ body {
   height: 374px;
   margin: 10px;
   padding:10px;
-  border: 2px solid rgb(17, 38, 230);
+  border: 2px solid rgb(47, 241, 80);
   border-radius: 8px;
   background: rgb(224, 224, 224);
-  color: rgb(240, 240, 240);
+  color: rgb(28, 71, 14);
 }
 [data-draggable="item"] {
   display: block;
@@ -21,8 +21,9 @@ body {
   border-radius: 5px;
   width: 80%;
   height: 30px;
-  background: rgb(41, 41, 251);
+  background: rgb(49, 247, 82);
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: #c6f8cd 0px 0px 0px 2px inset;
 }
