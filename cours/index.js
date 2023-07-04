@@ -56,5 +56,22 @@ try {
    console.log(error);
 } finally {
     // s'execute toujours
-    console.log("finally");
+   // console.log("finally");
+}
+
+//throw
+
+function isNumber(num){
+    if(isNaN(num)) {
+        throw "Ce n'est pas un nombre";
+    } else {
+        console.log("C'est un nombre");
+    }
+    //plein de code
+}
+
+try {
+    isNumber("2d");
+} catch (error) {
+    console.log(error);
 }
