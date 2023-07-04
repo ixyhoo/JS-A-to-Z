@@ -1,3 +1,4 @@
+"use strict";
 //CANVAS
 //-------
 /*function draw (){
@@ -75,3 +76,11 @@ try {
 } catch (error) {
     console.log(error);
 }
+
+//------
+//Strict mode 
+
+
+
+voiture = "BMW";
+console.log(voiture);
