@@ -1,6 +1,6 @@
 //CANVAS
 //-------
-function draw (){
+/*function draw (){
 
     const canvas = document.getElementById("canvas");
     const ctx = canvas.getContext("2d");
@@ -24,4 +24,37 @@ function draw (){
     ctx.fill();
 }
 
-window.addEventListener("load", draw);
+window.addEventListener("load", draw);*/
+
+//-------
+// try catch
+
+try {   
+    // test un block de code
+    maFonction();
+} catch (error) {
+    // attrape les erreurs
+   // console.log(error);
+}
+
+function isValidJson(txt) {
+    try {
+        JSON.parse(txt);
+        return true;
+    } catch {
+        return false;
+    }
+}
+
+//console.log(isValidJson("test"));
+
+try {   
+    // test un block de code
+    maFonction();
+} catch (error) {
+    // attrape les erreurs
+   console.log(error);
+} finally {
+    // s'execute toujours
+    console.log("finally");
+}
